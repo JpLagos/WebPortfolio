@@ -13,9 +13,6 @@ module.exports = {
         'lightgreen': '#689BA6',
         'purple': '#16BFFD',
         'bliss': '#CB3066',
-        'gradientBlue': '#2b5876',
-        'gradientPurple': '#4e4376',
-        'gradientLightBlue': '#2B5890',
 
 
       }

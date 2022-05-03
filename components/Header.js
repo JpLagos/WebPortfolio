@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-scroll';
 import Image from 'next/image';
 
-const Head = () => {
+const Header = () => {
   return (
     <div className='mx-auto'>
         <div className='flex flex-col mt-14 text-white text-center p-2 gap-5 h-screen'>
@@ -34,4 +34,4 @@ const Head = () => {
   )
 }
 
-export default Head
+export default Header

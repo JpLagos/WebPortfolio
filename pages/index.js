@@ -1,18 +1,21 @@
 import NavBar from "../components/NavBar"
-import Head from "../components/Head"
+import Header from "../components/Header"
 import Projects from "../components/Projects"
 import Technologies from "../components/Technologies"
 import AboutMe from "../components/AboutMe"
 import Contact from "../components/Contact"
 import Footer from "../components/Footer"
-import { Link } from 'react-scroll';
+import Head from "next/head"
 
 
 export default function Home() {
   return (
     <div>
+      <Head>
+        <title> Juan Lagos</title>
+      </Head>
       <NavBar/>
-      <Head/>
+      <Header/>
       <Projects/>
       <Technologies/>
       <AboutMe/>
