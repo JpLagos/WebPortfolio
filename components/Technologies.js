@@ -22,8 +22,8 @@ const Technologies = () => {
                     <li>Git</li>
                     <li>GitHub</li>
                     <li>Wordpress</li>
-                    <li>firebase</li>
-                    <li>supabase</li>
+                    <li>Firebase</li>
+                    <li>Supabase</li>
                 </ul>
                 <ul className='list-disc text-xl font-thin text-white'>
                     <li>QuickLearning</li>
