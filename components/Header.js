@@ -6,9 +6,8 @@ const Header = () => {
   return (
     <div className='mx-auto'>
         <div className='flex flex-col mt-14 text-white text-center p-2 gap-5 h-screen'>
-          <div>
-
-            <Image className='rounded-full self-center max-w-xs z-0'
+          <div className='border-4 border-bliss rounded-full self-center max-w-xs z-0 flex'>
+            <Image className='rounded-full'
             src="/me.jpg"
             alt="Juan Lagos Dev"
             width={350}

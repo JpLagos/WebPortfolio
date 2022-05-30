@@ -7,11 +7,10 @@ const AboutMe = () => {
     <div id="about">
         <div className='flex flex-col md:max-w-4xl md:mx-auto'>
             <span className='text-4xl text-white font-bold text-center md:text-left mt-16 mx-5'>About me</span>
-            <div className='flex items-center justify-center m-5'>
-              <Image className='rounded-full mx-auto'
+            <div className='border-4 border-bliss rounded-full self-center max-w-xs flex my-4'>
+              <Image className='rounded-full'
                 src="/about.jpg"
                 alt="about me"
-                layout="fixed"
                 width={350}
                 height={350}>  
               </Image>

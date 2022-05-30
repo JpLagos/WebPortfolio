@@ -107,6 +107,10 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+.imageCard{
+  border: solid !important;
+  border-color: #CB3066 !important;
+}
 
 @media (max-width: 600px) {
   .grid {

@@ -2,7 +2,7 @@ import React from 'react'
 
 const GridItem = ({src, alt, title, description, url}) => {
   return (
-    <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <div className="hover:-translate-y-1 hover:scale-110 duration-300 ... max-w-xs sm:max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                     <a href={url} target="_blank" rel="noopener noreferrer">
                         <img className="rounded-t-lg" src={src} alt={alt} />
                     
